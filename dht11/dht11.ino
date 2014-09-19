@@ -12,7 +12,7 @@ dht DHT;
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println("DHT TEST PROGRAM ");
   Serial.print("LIBRARY VERSION: ");
   Serial.println(DHT_LIB_VERSION);
