@@ -13,15 +13,5 @@ void loop() {
   Serial.println("OFF"  );
   digitalWrite(13, LOW);    // 关闭激光头
   delay(1000);              // 延时一秒  
-//    while (Serial.available() > 0)  
-//    {
-//        comdata += char(Serial.read());
-//        delay(2);
-//    }
-//    //Serial.println("hi");
-//    if (comdata.length() > 0)
-//    {
-//        Serial.println("you sent:" +comdata );
-//        comdata = "";
-//    }
+
   }
